@@ -110,7 +110,7 @@ print("Function: get_letters_between_four_and_eight")
 def get_letters_between_four_and_eight(the_str):
   # Return the section of the string between indexes four
   # and eight
-  pass
+  return the_str[4:8]
 
 check_that_these_are_equal(
   get_letters_between_four_and_eight("The king granted them"),
