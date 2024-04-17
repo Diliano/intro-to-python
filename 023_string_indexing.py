@@ -52,7 +52,7 @@ print("Function: get_first_letter")
 
 def get_first_letter(the_str):
   # Return the first letter of the string
-  pass
+  return the_str[0]
 
 check_that_these_are_equal(
   get_first_letter("The king granted them"),
