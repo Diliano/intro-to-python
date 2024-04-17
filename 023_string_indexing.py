@@ -90,7 +90,7 @@ print("Function: get_nth_letter")
 
 def get_nth_letter(the_str, n):
   # Return the letter of the string at the specified index
-  pass
+  return the_str[n]
 
 check_that_these_are_equal(
   get_nth_letter("The king granted them", 4),
