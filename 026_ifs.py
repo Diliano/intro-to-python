@@ -78,7 +78,10 @@ def has_five_chars(the_str):
   # Return "STRING is five characters long" if the string
   # is five characters long.
   # Otherwise, return "Not five characters".
-  pass
+  if len(the_str) == 5:
+    return f"{the_str} is five characters long"
+  else:
+    return "Not five characters"
 
 check_that_these_are_equal(
   has_five_chars("ABCDE"),
