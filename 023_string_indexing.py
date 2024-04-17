@@ -71,7 +71,7 @@ print("Function: get_last_letter")
 
 def get_last_letter(the_str):
   # Return the last letter of the string
-  pass
+  return the_str[-1]
 
 check_that_these_are_equal(
   get_last_letter("The king granted them"),
