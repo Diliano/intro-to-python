@@ -1,5 +1,5 @@
 # Video alternative: https://youtu.be/W8F1pmRu5G8&t=300s
-
+    
 # There's another kind of loop — the `for` loop.
 
 # It looks like this:
