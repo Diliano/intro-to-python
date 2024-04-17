@@ -115,7 +115,7 @@ print("Function: strip_whitespace")
 def strip_whitespace(string):
   # Return the string with any whitespace removed from
   # the start and end
-  pass
+  return string.strip()
 
 check_that_these_are_equal(
   strip_whitespace("hello "), "hello")
